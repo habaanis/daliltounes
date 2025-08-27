@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon site d'établissements</title>
+</head>
+<body>
+    <h1>Liste des établissements</h1>
+    <div id="etablissements-container"></div>
+
+    <script>
+        // Ce script s'exécute dans le navigateur
+        async function getEtablissements() {
+            try {
+                // Faites un appel à l'URL de votre fonction.
+                const response = await fetch('/.netlify/functions/get-etablissements');
+                const data = await response.json(); 
+                
+                const container = document.getElementById('etablissements-container');
+                
+                // Afficher les données sur la page
+                if (Array.isArray(data)) {
+                    data.forEach(etablissement => {
+                        const p = document.createElement('p');
+                        p.textContent = etablissement.name;
+                        container.appendChild(p);
+                    });
+                } else {
+                    console.error("Les données reçues ne sont pas valides :", data);
+                    container.textContent = 'Erreur lors du chargement des données.';
+                }
+
+            } catch (error) {
+                console.error("Erreur lors de la récupération des données :", error);
+                const container = document.getElementById('etablissements-container');
+                container.textContent = 'Erreur lors du chargement des données.';
+            }
+        }
+        getEtablissements();
+    </script>
+</body>
+</html>

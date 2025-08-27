@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- Page d'accueil -->
+  <url>
+    <loc>https://www.dalil-tounes.com/</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://www.dalil-tounes.com/?lang=fr"/>
+    <xhtml:link rel="alternate" hreflang="ar" href="https://www.dalil-tounes.com/?lang=ar"/>
+    <xhtml:link rel="alternate" hreflang="en" href="https://www.dalil-tounes.com/?lang=en"/>
+    <xhtml:link rel="alternate" hreflang="ru" href="https://www.dalil-tounes.com/?lang=ru"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://www.dalil-tounes.com/?lang=es"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://www.dalil-tounes.com/?lang=it"/>
+  </url>
+  
+  <!-- Pages par catégorie -->
+  <url>
+    <loc>https://www.dalil-tounes.com/?category=hotel</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?category=alimentation</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?category=cultural</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?category=sante</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?category=administrative</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <!-- Pages par gouvernorat -->
+  <url>
+    <loc>https://www.dalil-tounes.com/?governorate=tunis</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?governorate=sousse</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?governorate=sfax</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.7</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?governorate=kairouan</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>https://www.dalil-tounes.com/?governorate=bizerte</loc>
+    <lastmod>2025-01-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+</urlset>
