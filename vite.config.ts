@@ -2,7 +2,7 @@ import { defineConfig } from 'vite'
 import react from '@vitejs/plugin-react'
 
 export default defineConfig({
-  base: '/', // sur Netlify, pas besoin de './', '/' est suffisant
+  base: '/',
   build: {
     outDir: 'dist',
     minify: 'terser',
@@ -19,3 +19,4 @@ export default defineConfig({
     port: 5173,
   },
 })
+
