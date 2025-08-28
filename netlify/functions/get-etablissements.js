@@ -1,6 +1,4 @@
-🔹 1. netlify/functions/get-etablissements.js
 export async function handler(event, context) {
-  // Exemple de données simulées
   const etablissements = [
     { id: 1, nom: "Lycée Jean Jaurès" },
     { id: 2, nom: "Collège Victor Hugo" },
@@ -13,5 +11,5 @@ export async function handler(event, context) {
     headers: {
       "Content-Type": "application/json",
     },
-  }
+  };
 }
